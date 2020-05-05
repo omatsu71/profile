@@ -1,0 +1,29 @@
+.jumbotron.jumbotron-extend
+  .container-fluid.jumbotron-container
+    %h1.site-name
+      = link_to "#", class: "top-name" do
+        %font{color: "#000"}akiyo matsumoto
+    %p
+      %a.btn.btn-black{href: "/pages/one", role: "button"} Curriculum
+      %a.btn.btn-black{href: "/pages/two", role: "button"} Apps Development
+      %a.btn.btn-black{href: "/pages/three", role: "button"} Personal Apps
+  .sns-button
+    %ul.list-inline
+      = link_to "#", class: "contents__btn" do
+        = icon('fab', 'facebook-square')
+      = link_to "#", class: "contents__btn" do
+        = icon('fab', 'twitter')
+      = link_to "#", class: "contents__btn" do
+        = icon('fab', 'instagram')
+      = link_to "https://github.com/omatsu71/", class: "contents__btn" do
+        = icon('fab', 'github')
+        %font{color: "#000", size: "3"}my portfolio
+      -# %li
+      -#   %a{href: "#"}
+      -#     %img{alt: "tel", src: "img/icon_tel.png"}/
+      -# %li
+      -#   %a{href: "#"}
+      -#     %img{alt: "instagram", src: "img/icon_insta.png"}/
+      -# %li
+      -#   %a{href: "#"}
+      -#     %img{alt: "tumblr", src: "img/icon_.png"}/
