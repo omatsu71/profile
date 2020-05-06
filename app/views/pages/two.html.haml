@@ -9,7 +9,12 @@
         = link_to "https://github.com/omatsu71/chat-space", class: "contents__btn" do
           = icon('fab', 'github')
       .newcontents-container-left_three
-        Explanation note
+        %p Explanatory note
+        %button#open Open
+        #overlay
+        #modalWindow
+          %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
+          %button#close Close
     .newcontents-container-right
       .newcontents-container-right_one
         Freemarket-clone_site
@@ -17,7 +22,12 @@
         = link_to "https://github.com/omatsu71/freemarket_sample_32b-1", class: "contents__btn" do
           = icon('fab', 'github')
       .newcontents-container-right_three
-        Explanation note
+        %p Explanatory note
+        %button#open02 Open
+        #overlay02
+        #modalWindow02
+          %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
+          %button#close02 Close
   .newcontents-footer
     %p
       %a.btn.btn-black{href: "/pages", role: "button"} TOP PAGE
