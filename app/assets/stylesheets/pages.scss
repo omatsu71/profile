@@ -1,3 +1,28 @@
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+h4 {
+  font-size: 15px;
+  margin: 4px;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+}
+h5 {
+  font-size: 15px;
+  margin: 4px;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
 // index
 .jumbotron-extend {
   position: relative;
@@ -89,6 +114,7 @@
        }
       
       #modalWindow,#modalWindow02,#modalWindow03 {
+        padding: 10px;
         width: 1000px;
         height: 600px;
         position: fixed; /* viewpointを相対位置にする */
@@ -101,7 +127,10 @@
       body {
         text-align: center;
       }
-      
+      img{
+        width: 600px;
+        height: 200px;
+      }
       button {
         width: 100px;
         height: 50px;
@@ -150,18 +179,18 @@
     height: calc(100vh - 200px);
     text-align: center;
     justify-content: center;
-    .newcontents-container-left,.newcontents-container-right {
+    .newcontents-container-left,.newcontents-container-center,.newcontents-container-right {
       background-color: white;
       margin: 50px;
       width: 300px;
       padding: 20px;
-      .newcontents-container-left_one,.newcontents-container-right_one {
+      .newcontents-container-left_one,.newcontents-container-center_one,.newcontents-container-right_one {
         height: 100px;
         font-size: 30px;
         font-family: 'Playfair Display', serif;
         padding: 10px 10px 30px;
       }
-      .newcontents-container-left_two,.newcontents-container-right_two {
+      .newcontents-container-left_two,.newcontents-container-center_two,.newcontents-container-right_two {
         height: 100px;
         font-size: 50px;
         padding: 10px;
@@ -170,7 +199,7 @@
           color: black;
         }
       }
-      .newcontents-container-left_three,.newcontents-container-right_three {
+      .newcontents-container-left_three,.newcontents-container-center_three,.newcontents-container-right_three {
         #overlay,#overlay02,#overlay03 {
           /* viewpointを相対位置にし、全画面表示にする */
           width: 100%;

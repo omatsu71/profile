@@ -1,6 +1,7 @@
 .showcontents
   .header
-    Curriculum
+    %h1 Curriculum
+    %h2 アプリケーション作成の過程で、様々な機能の学習をいたしました
   .container
     .container-left
       .container-left_one
@@ -13,7 +14,22 @@
         %button#open Open
         #overlay
         #modalWindow
-          %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
+          %h3 「Pictweet」とは画像と文字を投稿していくシンプルなアプリケーションです
+          %h5  新規Railsアプリケーションやデータベースの作成と開発準備の学習
+          %h4  ・linuxコマンド・Gem・データベース・mysql・Sequel Pro
+          %h5  ルーティング、コントローラ、ビューについて理解
+          %h5  モデルを使ったデータベースとのやりとりの仕組みについて理解し、データの保存やデータの呼び出しについて学習
+          %h4  ・DB設計・ER図の作成・モデルとテーブル・テーブルのレコードとカラム・migration
+          %h4  ・コンソール・ActiveRecord・SQL・ヘルパーメソッド・MVC
+          %h5  入力画面の作成の学習
+          %h4  ・投稿フォームの実装・form_tag・HTTPメソッド・params・ストロングパラメーター・privateメソッド
+          %h5  追加機能の実装
+          %h4  ・ログイン機能・サインアップ機能・削除機能・更新機能・コメント機能
+          %h4  ・デバッグツールの使い方・orderメソッド・ページネーション・devise・link_toメソッド
+          %h4  ・prefix・unless文・redirect_toメソッド・before_action・アソシエーション
+          %h4  ・patchメソッド・HTTPリクエスト・部分テンプレート
+          %img{:src => "https://gyazo.com/90c33099ac2aa210aa9026c5399324ce"}
+          %h4
           %button#close Close
     .container-center
       .container-center_one
@@ -26,7 +42,12 @@
         %button#open02 Open
         #overlay02
         #modalWindow02
-          %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
+          %h3 「Nekotter」とは「Pictweet」の知識の復習用アプリケーションです
+          %h5  * Pictweetの簡易版
+          %h5  * 投稿する際にtextが入力できる
+          %h5  * 表示される画像(猫の画像)・投稿者名は同じで、ログイン機能もない
+          %img{}
+          %h4
           %button#close02 Close
     .container-right
       .container-right_one
@@ -39,7 +60,21 @@
         %button#open03 Open
         #overlay03
         #modalWindow03
-          %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
+          %h3 「Mooovi」とは映画のレビューを投稿・閲覧できるレビューサイトです
+          %h5  Mechanizeを使ったスクレイピング
+          %h4  ・インスタンスの生成・インスタンスメソッドでHTML情報を取得・LIKE句
+          %h5  投稿機能
+          %h4  ・投稿フォームの作成・form_for・データ保存・mergeメソッド・リダイレクト・resourcesメソッドのネスト・params[:id]
+          %h5  レビューの評価機能
+          %h4  ・ActiveRecord Relationクラス・averageメソッド・roundメソッド・レシーバ・self
+          %h5  ランキング機能
+          %h4  ・before_action・コントローラの継承・groupメソッド・countメソッド・keysメソッド・mapメソッド
+          %h5  ログイン機能、サインアップ機能、ログアウト機能
+          %h4  ・バリデーションの設定・アソシエーション
+          %h5  画像のアップロード機能
+          %h4  ・ImageMagick・Active Storage
+          %img{:src => "public/photo/dry.jpg"}
+          %h4
           %button#close03 Close
   .footer
     %p

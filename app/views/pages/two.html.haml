@@ -5,6 +5,7 @@
     .newcontents-container-left
       .newcontents-container-left_one
         Chat-space
+        %h2 (カリキュラム)
       .newcontents-container-left_two
         = link_to "https://github.com/omatsu71/chat-space", class: "contents__btn" do
           = icon('fab', 'github')
@@ -15,19 +16,34 @@
         #modalWindow
           %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
           %button#close Close
-    .newcontents-container-right
-      .newcontents-container-right_one
+    .newcontents-container-center
+      .newcontents-container-center_one
         Freemarket-clone_site
-      .newcontents-container-right_two
+        %h2 (チーム開発)
+      .newcontents-container-center_two
         = link_to "https://github.com/omatsu71/freemarket_sample_32b-1", class: "contents__btn" do
           = icon('fab', 'github')
-      .newcontents-container-right_three
+      .newcontents-container-center_three
         %p Explanatory note
         %button#open02 Open
         #overlay02
         #modalWindow02
           %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
           %button#close02 Close
+    .newcontents-container-right
+      .newcontents-container-right_one
+        AAAAA
+        %h2 (個人アプリ)
+      .newcontents-container-right_two
+        = link_to "https://github.com/omatsu71/freemarket_sample_32b-1", class: "contents__btn" do
+          = icon('fab', 'github')
+      .newcontents-container-right_three
+        %p Explanatory note
+        %button#open03 Open
+        #overlay03
+        #modalWindow03
+          %p Explanatory text Explanatory text Explanatory text Explanatory text Explanatory text
+          %button#close03 Close
   .newcontents-footer
     %p
       %a.btn.btn-black{href: "/pages", role: "button"} TOP PAGE
